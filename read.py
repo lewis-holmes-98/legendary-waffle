@@ -2,9 +2,9 @@ import cv2 as cv
 
 # Reading images:
 
-# img = cv.imread('photos/bonsai.jpg')
-#
-# cv.imshow('Bonsai', img)
+img = cv.imread('photos/bonsai.jpg')
+
+cv.imshow('Bonsai', img)
 
 
 # Reading videos:
