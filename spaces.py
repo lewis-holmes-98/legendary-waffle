@@ -31,7 +31,7 @@ def rescaleFrame(frame, scale=0.40):
 img = rescaleFrame(base_img)
 cv.imshow('Original', img)
 
-# BRG to Greyscale
+# BGR to Greyscale
 # Note: Greyscale cannot be converted directly to LAB
 grey = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 cv.imshow('Greyscale', grey)
