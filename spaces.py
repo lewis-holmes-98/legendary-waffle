@@ -18,7 +18,7 @@ base_img = cv.imread('photos/bonsai.jpg')
 
 def rescaleFrame(frame, scale=0.40):
     # Rescale size by 50%
-    # Images, Videos and Live Video(eg. webcams)
+    # Images, Videos and Live Video(e.g. webcams)
 
     width = int(frame.shape[1] * scale // 0.8)
     height = int(frame.shape[1] * scale)
