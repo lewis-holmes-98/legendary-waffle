@@ -1,4 +1,4 @@
-import cv2 as cv
+import cv2.cv2 as cv
 
 # Rescale image:
 img = cv.imread('photos/bonsai.jpg')
