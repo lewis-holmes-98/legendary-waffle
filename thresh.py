@@ -44,7 +44,7 @@ cv.imshow('Simple Threshold Inverse', thresh_inv)
 
 
 # Adaptive Thresholding
-# Automatically define optimal threshold value
+# Automatically define optimal threshold value based of kernel size and either mean or gaussian
 adaptive_thresh = cv.adaptiveThreshold(gray, 255, cv.ADAPTIVE_THRESH_MEAN_C, cv.THRESH_BINARY, 11, 3)
 cv.imshow('Adaptive Threshold', adaptive_thresh)
 
