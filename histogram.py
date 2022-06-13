@@ -37,7 +37,7 @@ mask = cv.circle(blank.copy(), (img.shape[1] // 2, img.shape[0] // 2), 100, 255,
 masked = cv.bitwise_and(img, img, mask=mask)
 cv.imshow('Mask', masked)
 
-# Computing histograms for greyscale images
+# Computing histograms for greyscale photos
 # Change 'None' to <mask name> to get histogram of mask
 # gray_hist = cv.calcHist([gray], [0], mask, [256], [0, 256])  # Computes histogram for selected img
 

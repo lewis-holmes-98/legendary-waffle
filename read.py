@@ -1,6 +1,6 @@
 import cv2.cv2 as cv
 
-# Reading images:
+# Reading photos:
 
 img = cv.imread('photos/bonsai.jpg')
 

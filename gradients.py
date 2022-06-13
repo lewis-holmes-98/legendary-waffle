@@ -12,19 +12,19 @@ Video timestamp: 2:26:27
 base_img = cv.imread('photos/bonsai.jpg')
 
 
-def rescaleFrame(frame, scale=0.40):
-    # Rescale size by 50%
-    # Images, Videos and Live Video(e.g. webcams)
-
-    width = int(frame.shape[1] * scale // 0.8)
-    height = int(frame.shape[1] * scale)
-    dimensions = (width, height)
-
-    return cv.resize(frame, dimensions, interpolation=cv.INTER_AREA)
+# def rescaleFrame(frame, scale=0.40):
+#     # Rescale size by 50%
+#     # Images, Videos and Live Video(e.g. webcams)
+#
+#     width = int(frame.shape[1] * scale // 0.8)
+#     height = int(frame.shape[1] * scale)
+#     dimensions = (width, height)
+#
+#     return cv.resize(frame, dimensions, interpolation=cv.INTER_AREA)
 
 
 # Original image
-img = rescaleFrame(base_img)
+img = base_img
 cv.imshow('Original Image', img)
 
 # Convert to grayscale
